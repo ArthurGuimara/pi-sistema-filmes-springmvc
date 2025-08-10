@@ -28,3 +28,17 @@ CREATE TABLE IF NOT EXISTS filme (
   genero  VARCHAR(60),
   ano     INT
 );
+
+## Como rodar
+- JDK 8 + Tomcat 9
+- Deploy do projeto e acessar: `http://localhost:8080/SistemaFilmesSpringMVC/filmes`
+- (No NetBeans: Project Properties → Run → **Relative URL** = `/filmes`)
+- Config do banco está em `WEB-INF/dispatcher-servlet.xml` (user/senha padrão `root`/`root`)
+
+## Rotas
+- **GET** `/filmes` – listar
+- **GET** `/filmes/novo` – formulário
+- **POST** `/filmes` – salvar (criar/editar)
+- **GET** `/filmes/{id}/editar` – editar
+- **POST** `/filmes/{id}/excluir` – excluir
+
