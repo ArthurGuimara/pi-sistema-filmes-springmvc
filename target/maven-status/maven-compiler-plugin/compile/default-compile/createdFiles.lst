@@ -1,2 +1,5 @@
+controller\Filme.class
 controller\FilmeController.class
 controller\HomeController.class
+controller\FilmeRepository.class
+controller\FilmeRepository$1.class

@@ -30,6 +30,13 @@
             <version>5.3.33</version>
         </dependency>
 
+        <!-- Spring JDBC -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.3.33</version>
+        </dependency>
+
         <!-- Servlet API -->
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -60,14 +67,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-	<!-- Spring JDBC -->
-	<dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-jdbc</artifactId>
-    <version>5.3.33</version>
-	</dependency>
-
 
     <build>
         <finalName>SistemaFilmesSpringMVC</finalName>
